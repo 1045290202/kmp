@@ -1,9 +1,10 @@
 {
-  "name": "kmp",
-  "version": "0.1.0",
-  "description": "",
+  "name": "kmp-search",
+  "version": "0.1.1",
+  "description": "扩展kmp算法实现查找字符串或数组在原始字符串或数组中的位置",
   "main": "dist/index.mjs",
   "type": "module",
+  "keywords": ["kmp", "search", "find", "string", "array", "index", "substring", "subarray", "algorithm"],
   "scripts": {
     "build": "tsc",
     "run": "node ./"
