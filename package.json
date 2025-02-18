@@ -1,0 +1,14 @@
+{
+  "name": "kmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "run": "node ./"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
