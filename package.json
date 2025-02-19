@@ -1,6 +1,6 @@
 {
   "name": "kmp-search",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "扩展kmp算法实现查找字符串或数组在原始字符串或数组中的位置",
   "main": "dist/index.mjs",
   "type": "module",

@@ -1,6 +1,7 @@
 export interface ICompare<T> {
-    (a: T | string, b: T | string): boolean;
+    (a: T, b: T): boolean;
 }
+export type ICompareString = ICompare<string>;
 export declare const defaultCompare: ICompare<any>;
 /**
  * 找到某个模式串在原始串中的位置
@@ -8,7 +9,7 @@ export declare const defaultCompare: ICompare<any>;
  * @param modeString 模式串
  * @param compare 比较函数
  */
-export declare function findIndex(originalString: string, modeString: string, compare?: ICompare<string>): number;
+export declare function findIndex(originalString: string, modeString: string, compare?: ICompareString): number;
 /**
  * 找到某个模式数组在原始数组中的位置
  * @param originalArray 原始数组
