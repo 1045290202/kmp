@@ -32,10 +32,6 @@ function kmp(array, modeArray, compare = defaultCompare) {
     }
     return -1;
 }
-/**
- * 找到对应的集合在什么位置
- */
 export function findIndex(originalArray, modeArray, compare = defaultCompare) {
     return kmp(originalArray, modeArray, compare);
 }
-console.log(findIndex("aaaAB", "ab", (a, b) => a.toLowerCase() === b.toLowerCase()));

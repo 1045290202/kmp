@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607d5d8a-7dc9-4c15-a4a4-74c1d85ac433" name="更改" comment="增加文档，更改版本号">
+    <list default="true" id="607d5d8a-7dc9-4c15-a4a4-74c1d85ac433" name="更改" comment="修改配置">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
       <selected-paths>
         <path>
           <id value="$PROJECT_DIR$/package.json" />
-          <id value="run" />
+          <id value="build" />
         </path>
       </selected-paths>
     </layout>
@@ -62,11 +65,11 @@
     "npm.build.executor": "Run",
     "npm.run.executor": "Run",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Rainbow Brackets",
-    "ts.external.directory.path": "G:\\moved\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "G:\\project\\ts\\kmp\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.run" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.run" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739869528384</updated>
-      <workItem from="1739869530929" duration="3203000" />
+      <workItem from="1739869530929" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交">
       <option name="closed" value="true" />
@@ -127,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739871977290</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改配置">
+      <option name="closed" value="true" />
+      <created>1739872797171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739872797171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始提交" />
     <MESSAGE value="增加文档，更改版本号" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加文档，更改版本号" />
+    <MESSAGE value="修改配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置" />
   </component>
 </project>
